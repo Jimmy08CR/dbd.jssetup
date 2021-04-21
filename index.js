@@ -14,7 +14,7 @@ const listener = app.listen(process.env.PORT, () => {
 const dbd = require("dbd.js")
  require('dotenv').config();
 const bot = new dbd.Bot({
-token: "ODM0NTE1OTYwMjQ4NjY0MTM0.YICBjQ.-VK7fsWlwnEbIFXQ7d5Ng5i1M9s", 
+token: "token", 
 prefix: ['$getServerVar[prefix]',], //<- Change whatever with your prefix//
 fetchInvites : true
 })
